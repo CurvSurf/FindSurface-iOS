@@ -8,7 +8,7 @@ These instructions below are written as of the time that the latest version of X
 
 ### Step 1. Download the framework
 
-Download the distributed framework from [here]. Put the downloaded content to anywhere you want.
+Download the distributed framework from [here](https://github.com/CurvSurf/FindSurface-iOS/releases). Unzip and put the downloaded content to anywhere you want.
 
 
 
