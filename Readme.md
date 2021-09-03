@@ -34,3 +34,9 @@ No. It doesn't. The framework is currently compatible only for iOS 14.5+.
 
 Since the framework module has been built only for `arm64`, you app could not find the module for `x86_64-apple-ios-simulator`, which is used by the SwiftUI preview (iOS simulator).
 
+## ---
+
+(c) Copyright 2021 CurvSurf, Inc. All rights reserved.
+
+This library's ownership is solely on CurvSurf, Inc. and anyone can use it for non-commercial purposes. Contact to support@curvsurf.com for commercial use of the library.
+
