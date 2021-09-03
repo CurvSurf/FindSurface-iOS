@@ -4,15 +4,11 @@
 
 ## Overview
 
---------
-
 This library is the implementation of the FindSurface library for iOS (Objective-C/Swift).
 
 
 
 ## F.A.Qs
-
-----
 
 ### Q. How do I import this framework to my project?
 

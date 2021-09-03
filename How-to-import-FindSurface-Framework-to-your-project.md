@@ -1,7 +1,5 @@
 # How to import FindSurface Framework to your project
 
-----
-
 This document describes how to import FindSurface Framework to your project in xcode.
 
 These instructions below are written as of the time that the latest version of Xcode is 12.5.1.
