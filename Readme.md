@@ -1,4 +1,4 @@
-# FindSurfaceFramework
+# FindSurfaceFramework for iOS
 
 **Curv*Surf* FindSurface™**
 
