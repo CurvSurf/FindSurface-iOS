@@ -32,7 +32,7 @@ No. It doesn't. The framework is currently compatible only for iOS 14.5+.
 
 ### Q. My app failed to build for SwiftUI preview (iOS simulator) while it succeeded to build and run on my iOS device. What's the problem?
 
-Since the framework module has been built only for `arm64`, you app could not find the module for `x86_64-apple-ios-simulator`, which is used by the SwiftUI preview (iOS simulator).
+Since the framework module has been built only for `arm64`, your app could not find the module for `x86_64-apple-ios-simulator`, which is used by the SwiftUI preview (iOS simulator).
 
 ## ---
 
