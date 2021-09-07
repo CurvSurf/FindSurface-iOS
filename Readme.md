@@ -4,7 +4,7 @@
 
 ## Overview
 
-This library is the implementation of the FindSurface library for iOS (Objective-C/Swift).
+This library is the implementation of the **FindSurface** library for **iOS (Objective-C/Swift).**
 
 
 
@@ -26,7 +26,7 @@ refer to [this document](How-to-import-FindSurface-Framework-to-your-project.md)
 
 ### Q. Does this framework work on Mac OS?
 
-No. It doesn't. The framework is currently compatible only for iOS 14.5+.
+No. It doesn't. The framework is currently compatible only for iOS 14.0+.
 
 
 
