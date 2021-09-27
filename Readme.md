@@ -26,7 +26,7 @@ refer to [this document](How-to-import-FindSurface-Framework-to-your-project.md)
 
 ### Q. Does this framework work on Mac OS?
 
-No. It doesn't. The framework is currently compatible only for iOS 14.0+.
+No. It doesn't. The framework is currently compatible only for iOS 14.5+.
 
 
 
