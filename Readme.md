@@ -14,6 +14,8 @@ These are the samples to help you get started to make your application with the 
 
 - [BasicDemo (Swift)](https://github.com/CurvSurf/FindSurface-BasicDemo-iOS)
 
+- [GUIDemo (Swift)](https://github.com/CurvSurf/FindSurface-GUIDemo-iOS)
+
 
 
 ## F.A.Qs
