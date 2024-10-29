@@ -16,7 +16,7 @@ These are the samples to help you get started to make your application with the 
 
 - [GUIDemo (Swift)](https://github.com/CurvSurf/FindSurface-GUIDemo-iOS)
 
-
+- [ARDemo (Swift, SceneKit)](https://github.com/CurvSurf/FindSurface-SceneKit-ARDemo-iOS)
 
 ## F.A.Qs
 
