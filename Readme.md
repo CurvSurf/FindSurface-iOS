@@ -1,16 +1,24 @@
-# FindSurfaceFramework for iOS
+# FindSurface-iOS
 
-**Curv*Surf* FindSurface™**
+**Curv*Surf* FindSurface™ library package for iOS (Swift)**
 
 ## Overview
 
-This library is the implementation of the **FindSurface** library for **iOS (Objective-C/Swift).**
+**FindSurface-iOS** is a Swift package of FindSurface™ library, of which interface is modified to allow you to use its functionalities.
 
+> **NOTE**: `FindSurfaceFramework` (including `FindSurface-iOS`) provides its functionality for non-commercial purposes within Apple iPhone/iPad devices. It is internally limited to process input point clouds of **500k points or less**. For commercial uses or use cases that require more than 500k points, please contact to support@curvsurf.com.
+
+
+### What's new in the package compared to the old framework?
+
+Thanks to Swift Package Manager, you no longer have to specify the framework path. Just simply add the package to your project. The package exposes a wrapper class of FindSurface context, which gives you a clue on how to invoke the FindSurface APIs. Feel free to use it or to customize it for your own needs.
+
+As mentioned above, the framework enclosed in the package now have a limitation on the number of input point clouds.
 
 
 ## Samples
 
-These are the samples to help you get started to make your application with the framework (more samples are to be added in the future):
+The followings are sample project repositories to help you get started to make your application with the package (more samples are to be added in the future):
 
 - [BasicDemo (Swift)](https://github.com/CurvSurf/FindSurface-BasicDemo-iOS)
 
@@ -18,27 +26,45 @@ These are the samples to help you get started to make your application with the 
 
 - [ARDemo (Swift, SceneKit)](https://github.com/CurvSurf/FindSurface-SceneKit-ARDemo-iOS)
 
-## F.A.Qs
 
-### Q. How do I import this framework to my project?
+## How to install
 
-refer to [this document](How-to-import-FindSurface-Framework-to-your-project.md).
+### Adding this package as a Dependency
+
+You can import this package by adding the following line to the dependencies in your `Package.swift` file:
+
+````
+dependencies: [
+    ...
+    .package(utl: "https://github.com/CurvSurf/FindSurface-iOS", from: "1.0.3")
+],
+targets: [
+    .target(name: "<target>", dependencies: [
+        ...
+        "FindSurface-iOS"
+    ]),
+    ...
+]
+````
+
+Then, add `import FindSurface_iOS` (note that it is not hyphenated, but underscored in the middle of the words.)
+
+### Using the XCFramework without the wrapper
+
+This package is a wrapper containing the iOS version (including the simulator) of the FindSurface XCFramework. You can also refer to the source code of this package to use the framework directly. In that case, import `FindSurfaceFramework` instead.
 
 
+## About License
 
-### Q. Does this framework work on Mac OS?
+You may use the source code of this package freely under MIT license, as the license file stated, except for `FindSurfaceFramework`, which is the core of the package.
 
-No. It doesn't. The framework is currently compatible only for iOS 14.5+.
+About the framework, refer to the following statement:
 
+````
+Copyright (c) 2024 CurvSurf, Inc. All rights reserved.
 
-
-### Q. My app failed to build for SwiftUI preview (iOS simulator) while it succeeded to build and run on my iOS device. What's the problem?
-
-Since the framework module has been built only for `arm64`, your app could not find the module for `x86_64-apple-ios-simulator`, which is used by the SwiftUI preview (iOS simulator).
-
-## ---
-
-(c) Copyright 2021 CurvSurf, Inc. All rights reserved.
-
-This library's ownership is solely on CurvSurf, Inc. and anyone can use it for non-commercial purposes. Contact to support@curvsurf.com for commercial use of the library.
+The framework `FindSurface-iphoneOS.xcframework` and `FindSurfaceFramework.framework`'s 
+ownership is solely on CurvSurf, Inc. and anyone can use it for non-commercial purposes. 
+Contact to support@curvsurf.com for commercial use of the library.
+````
 
